@@ -257,6 +257,27 @@ function App() {
 
           {/* contact us  */}
 
+          <div className='w-full h-full p-4'>
+            <div className='grid grid-cols-2 p-4 gap-4  h-[40vh] justify-center items-center'>
+              <div className='flex flex-col'>
+                <h1 className='text-4xl font-semibold'>Its not about idea</h1>
+                <h1 className='text-4xl font-semibold'>Its about making idea happen </h1>
+                <span className='text-xl text-gray-600 font-semibold'>- Scott belsky</span>
+              </div>
+              <div className='flex justify-center gap-4 '>
+                <div>
+                  <h1 className='text-4xl font-bold'>Maximice Associates</h1>
+                  <h2 className='text-xl'>Seamless Solution</h2>
+                </div>
+                
+              </div>
+            </div>
+            <div>
+              <h1 className='mt-2 text-center  font-semibold'>businessatmaximice@gmail.com</h1>
+              <h1 className='text-center font-semibold'>+91 9890845263</h1>
+              <h1 className='text-center uppercase mt-6 font-semibold text-white bg-black p-2'>@ 2024 All Rights Reserved</h1>
+            </div>
+          </div>
 
 
         </div>
