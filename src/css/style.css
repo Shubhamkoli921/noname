@@ -61,3 +61,10 @@
       transform: translateY(100px) rotateX(90deg) translateZ(100px);
     }
   }
+
+  @media only screen and (max-width: 600px){
+    .obj{
+        width: 200px;
+        height: 200px;
+    }
+  }
