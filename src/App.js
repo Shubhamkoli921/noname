@@ -220,11 +220,11 @@ function App() {
                   </div>
 
                 </div>
-                <div className='w-full h-full  rounded-2xl  '>
-                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-screen bg-slate-100  scale-95 '>
+                {/* <div className='w-full h-screen  rounded-2xl  '> */}
+                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full bg-slate-100  scale-95 '>
                     <div className='text-white flex flex-col justify-around'>
                       <div className='flex w-full flex-col items-center  '>
-                        <h1 className='text-4xl lg:text-7xl  font-bold text-center mt-10 lg:mt-2 text-gray-800 '>Innovate with us</h1>
+                        <h1 className='text-4xl lg:text-7xl  font-bold text-center mt-2 lg:mt-2 text-gray-800 '>Innovate with us</h1>
                         <p className=' w-full lg:w-[500px] text-justify text-xl mt-2 p-4 lg:p-0 text-gray-600'>Ready to take your business to next level? Contact us today to discuss your project & get a free consultation. We're here to answer any question you may have.</p>
                       </div>
 
@@ -246,7 +246,7 @@ function App() {
                     </div>
                   </div>
 
-                </div>
+                {/* </div> */}
 
 
                 {/* <h1 className='text-6xl  text-white uppercase text-center font-semibold p-4 mt-10'>Our Achievements</h1> */}
