@@ -104,7 +104,7 @@ function App() {
 
           {/* Logo Design  */}
           <div className=' bg-black w-full h-full'>
-            <div className='grid grid-rows-1 lg:grid-cols-2 w-full h-screen bg-black scale-90'>
+            <div className='grid grid-rows-1 lg:grid-cols-2 w-full h-full lg:h-screen bg-black scale-90'>
 
 
 
@@ -221,7 +221,7 @@ function App() {
 
                 </div>
                 {/* <div className='w-full h-screen  rounded-2xl  '> */}
-                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full bg-slate-100  scale-95 '>
+                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full lg:h-screen bg-slate-100  scale-95 '>
                     <div className='text-white flex flex-col justify-around'>
                       <div className='flex w-full flex-col items-center  '>
                         <h1 className='text-4xl lg:text-7xl  font-bold text-center mt-2 lg:mt-2 text-gray-800 '>Innovate with us</h1>
