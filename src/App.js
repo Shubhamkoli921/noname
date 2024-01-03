@@ -19,8 +19,8 @@ function App() {
   return (
     <>
       <div>
-        <div className='lg:flex-row flex sm:flex-col w-full h-full scale-95 shadow-md shadow-black'>
-          <div className='w-[900px] h-screen hidden'>
+        <div className='flex flex-col-reverse  lg:flex-row w-full h-full scale-95 shadow-md shadow-black'>
+          <div className='w-[900px] h-full hidden lg:flex lg:h-screen'>
             <img src={business} alt='business img ' className='object-cover  w-full h-full' />
           </div>
           <div className='w-full h-screen bg-black p-10 flex flex-col justify-between '>
@@ -29,7 +29,7 @@ function App() {
               <h1 className=' font-bold  text-2xl text-white'>Maximice Associates</h1>
             </div>
             <div className='flex flex-col gap-2'>
-              <h1 className='text-6xl text-white uppercase'>Custom Software Solution to help your business succeed. </h1>
+              <h1 className='text-6xl text-white uppercase'>Custom Software Solution. </h1>
               <p className='mt-1 text-md text-2xl text-white'> <ReactTyped
                 strings={["Leverage Your Business", "Seamless Solution", "Designer"]}
                 typeSpeed={50}
@@ -51,7 +51,7 @@ function App() {
 
         <div className='flex w-full h-screen flex-col'>
           <div className=' bg-gradient-to-tr from-pink-400 to-[#4169E1] h-[30vh] flex items-center sm:justify-center sm:p-2'>
-            <h1 className='text-6xl  text-white uppercase text-center font-semibold p-4'>maximice Associates</h1>
+            <h1 className='text-5xl lg:text-6xl  text-white uppercase text-center font-semibold p-4'>maximice Associates</h1>
           </div>
           <div className='bg-black h-screen grid lg:grid-cols-2 sm:grid-cols-1 '>
             <div className='w-full justify-center flex flex-col p-4 h-full'>
@@ -74,15 +74,15 @@ function App() {
             </div>
           </div>
         </div>
-        <div className=' bg-black  w-full flex items-center h-screen lg:h-[30vh]'>
-          <h1 className='text-6xl text-white uppercase text-center font-semibold p-4 ml-4'>The Services we offer</h1>
+        <div className=' bg-black  w-full flex items-center h-[30vh]'>
+
         </div>
         <div className='flex w-full flex-col justify-center m-auto items-center '>
 
           {/* heading */}
 
 
-
+                  <h1 className='text-5xl lg:text-6xl uppercase  font-semibold p-4 ml-4'>The Services we offer</h1>
           {/* webdesign  */}
 
           <div className='grid grid-row-2 lg:grid-cols-2 w-full h-full scale-90'>
@@ -95,6 +95,7 @@ function App() {
                 <span className='uppercase text-5xl lg:text-8xl font-semibold -mt-6'>development</span>
                 <p className='text-gray-700 w-full lg:w-[500px]'>dfjksdfn ajsdnakdnfalk akfn alfkna fkna lfknalkfn alf l aknsf laskfn lakf nalk fnafk naf knaf lakf nalf knal kaalwinfsljfsdhvbisuelhgb nafnalk alif o lkns
                 </p>
+                <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'>View Plan</button>
               </div>
             </div>
             <div className='flex justify-center items-center w-full '>
@@ -117,6 +118,7 @@ function App() {
                 <h1 className='font-bold text-7xl lg:text-9xl uppercase'>Logo </h1>
                 <h1 className='font-bold text-7xl lg:text-9xl uppercase '>Design </h1>
                 <p className='w-full lg:w-[500px] font-normal text-gray-300'>dsjdkfk kafjg akjgka jgsfb akjf kagfb eyughbvhcjiugf huj sjb jbKJ huegbb   urg urgi riu uih u uifhauh   afh vblkbj aiu iuf fiu uufhaauifhafh  sif ieofij vefi f if oifj nodfjoiej  oIF fnskDFoi  hfduij bfkj bfKDFb JHDFb JHDFb FHbJDHFvsdhvlkhDFvFaDollyFlatbed;. g;oligz jg;zk</p>
+                <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'>View Plan</button>
               </div>
             </div>
           </div>
@@ -133,9 +135,10 @@ function App() {
                   <h1 className='text-6xl lg:text-8xl font-semibold uppercase '>Digital</h1>
                   <h1 className='text-6xl lg:text-8xl font-semibold uppercase -mt-3 '>Marketing</h1>
                 </div>
-                <div className='w-full flex-col flex justify-center items-center '>
+                <div className='w-full flex-col flex  '>
                   <img src={bird} className='w-[80px]' alt='' />
                   <p className='flex text-justify w-full justify-end'>dsjdkfk kafjg akjgka jgsfb akjf kagfb eyughbvhcjiugf huj sjb jbKJ huegbb   urg urgi riu uih u uifhauh   afh vblkbj aiu iuf fiu uufhaauifhafh  sif ieofij vefi f if oifj nodfjoiej  oIF fnskDFoi  </p>
+                  <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'>View Plan</button>
                 </div>
 
               </div>
@@ -146,9 +149,9 @@ function App() {
 
           <div className='w-full h-full'>
             <div className='h-full bg-black'>
-              <div className=' bg-black h-full lg:h-[30vh] w-full flex items-center'>
-                <h1 className='text-2xl lg:text-6xl bg-gradient-to-tr from-pink-400 to-[#4169E1] text-white uppercase text-center font-semibold p-4 ml-4 mt-4 lg:mt-0'>Our Previous work & Achievements</h1>
-              </div>
+            <div className=' bg-gradient-to-tr from-pink-400 to-[#4169E1] h-[30vh] flex items-center sm:justify-center sm:p-2'>
+            <h1 className='text-5xl lg:text-6xl  text-white uppercase text-center font-semibold p-4'>Our Previous work & Achievements</h1>
+          </div>
 
               <div className='h-full scale-95'>
                 {/* <div className='flex text-white gap-2'> */}
@@ -208,20 +211,9 @@ function App() {
                   </div>
                 </div>
                 {/* </div> */}
-                <div className='w-full h-full '>
-                  <div>
-                    <div className=' bg-black'>
-                      <div className=' bg-black h-full  lg:h-[30vh] w-full flex items-center'>
-                        <h1 className=' text-2xl lg:text-6xl mt-5 lg:mt-0  bg-gradient-to-tr from-pink-400 to-[#4169E1] text-white uppercase text-center font-semibold p-4 ml-4'>Get Connect with us</h1>
-                      </div>
-                    </div>
-
-
-                  </div>
-
-                </div>
+               
                 {/* <div className='w-full h-screen  rounded-2xl  '> */}
-                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full lg:h-screen bg-slate-100  scale-95 '>
+                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full lg:h-screen bg-slate-100 mt-0 lg:mt-5 scale-95 '>
                     <div className='text-white flex flex-col justify-around'>
                       <div className='flex w-full flex-col items-center  '>
                         <h1 className='text-4xl lg:text-7xl  font-bold text-center mt-2 lg:mt-2 text-gray-800 '>Innovate with us</h1>
