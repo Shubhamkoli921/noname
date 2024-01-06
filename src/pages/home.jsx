@@ -17,7 +17,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <>
-     <div>
+      <div>
         <div className='flex flex-col-reverse  lg:flex-row w-full h-full scale-95 shadow-md shadow-black'>
           <div className='w-[900px] h-full hidden lg:flex lg:h-screen'>
             <img src={business} alt='business img ' className='object-cover  w-full h-full' />
@@ -81,7 +81,7 @@ const Home = () => {
           {/* heading */}
 
 
-                  <h1 className='text-5xl lg:text-6xl uppercase  font-semibold p-4 ml-4'>The Services we offer</h1>
+          <h1 className='text-5xl lg:text-6xl uppercase  font-semibold p-4 ml-4'>The Services we offer</h1>
           {/* webdesign  */}
 
           <div className='grid grid-row-2 lg:grid-cols-2 w-full h-full scale-90'>
@@ -92,9 +92,9 @@ const Home = () => {
               <div className='flex justify-center w-full flex-col p-4 gap-4 lg:gap-0'>
                 <span className='uppercase text-5xl lg:text-8xl font-semibold '>Web</span>
                 <span className='uppercase text-5xl lg:text-8xl font-semibold -mt-6'>development</span>
-                <p className='text-gray-700 w-full lg:w-[500px]'>dfjksdfn ajsdnakdnfalk akfn alfkna fkna lfknalkfn alf l aknsf laskfn lakf nalk fnafk naf knaf lakf nalf knal kaalwinfsljfsdhvbisuelhgb nafnalk alif o lkns
+                <p className='text-gray-700 w-full lg:w-[500px]'>Our skilled web development wizards specialize in crafting responsive designs that seamlessly adapt to any device, ensuring a captivating user journey. Beyond static pages, we create living, breathing entities that engage users through intuitive navigation, eye-catching visuals, and purposeful content, leaving a lasting impression.
                 </p>
-                <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'><Link to={'/webplan'}>View Plan</Link></button>
+                <Link className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1] text-center' to={'/webplan'}>View plan</Link>
               </div>
             </div>
             <div className='flex justify-center items-center w-full '>
@@ -117,7 +117,7 @@ const Home = () => {
                 <h1 className='font-bold text-7xl lg:text-9xl uppercase'>Logo </h1>
                 <h1 className='font-bold text-7xl lg:text-9xl uppercase '>Design </h1>
                 <p className='w-full lg:w-[500px] font-normal text-gray-300'>dsjdkfk kafjg akjgka jgsfb akjf kagfb eyughbvhcjiugf huj sjb jbKJ huegbb   urg urgi riu uih u uifhauh   afh vblkbj aiu iuf fiu uufhaauifhafh  sif ieofij vefi f if oifj nodfjoiej  oIF fnskDFoi  hfduij bfkj bfKDFb JHDFb JHDFb FHbJDHFvsdhvlkhDFvFaDollyFlatbed;. g;oligz jg;zk</p>
-                <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'><Link to={'/logoplan'}>View plan</Link></button>
+                <Link className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]' to={'/logoplan'}>View plan</Link>
               </div>
             </div>
           </div>
@@ -125,32 +125,32 @@ const Home = () => {
           {/* {digital marketing}  */}
 
           {/* <div className='w-full h-full '> */}
-            <div className=' h-full lg:h-screen grid grid-rows-2 p-6'>
-              <div className='flex w-full h-[50vh]'>
-                <img src={digital3} className='w-full object-cover grayscale' alt='' />
-              </div>
-              <div className='grid grid-rows-1  lg:grid-cols-2  w-full p-4 '>
-                <div className='flex flex-col w-full justify-center '>
-                  <h1 className='text-6xl lg:text-8xl font-semibold uppercase '>Digital</h1>
-                  <h1 className='text-6xl lg:text-8xl font-semibold uppercase -mt-3 '>Marketing</h1>
-                </div>
-                <div className='w-full flex-col flex  '>
-                  <img src={bird} className='w-[80px]' alt='' />
-                  <p className='flex text-justify w-full justify-end'>dsjdkfk kafjg akjgka jgsfb akjf kagfb eyughbvhcjiugf huj sjb jbKJ huegbb   urg urgi riu uih u uifhauh   afh vblkbj aiu iuf fiu uufhaauifhafh  sif ieofij vefi f if oifj nodfjoiej  oIF fnskDFoi  </p>
-                  <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'><Link to={'/digiplan'}>View Plan</Link></button>
-                </div>
-
-              </div>
+          <div className=' h-full lg:h-screen grid grid-rows-2 p-6'>
+            <div className='flex w-full h-[50vh]'>
+              <img src={digital3} className='w-full object-cover grayscale' alt='' />
             </div>
+            <div className='grid grid-rows-1  lg:grid-cols-2  w-full p-4 '>
+              <div className='flex flex-col w-full justify-center '>
+                <h1 className='text-6xl lg:text-8xl font-semibold uppercase '>Digital</h1>
+                <h1 className='text-6xl lg:text-8xl font-semibold uppercase -mt-3 '>Marketing</h1>
+              </div>
+              <div className='w-full flex-col flex  '>
+                <img src={bird} className='w-[80px]' alt='' />
+                <p className='flex text-justify w-full justify-end'>dsjdkfk kafjg akjgka jgsfb akjf kagfb eyughbvhcjiugf huj sjb jbKJ huegbb   urg urgi riu uih u uifhauh   afh vblkbj aiu iuf fiu uufhaauifhafh  sif ieofij vefi f if oifj nodfjoiej  oIF fnskDFoi  </p>
+                <button className='p-4 w-[200px] mt-5 bg-gradient-to-tr from-pink-400 to-[#4169E1]'><Link to={'/digiplan'}>View Plan</Link></button>
+              </div>
+
+            </div>
+          </div>
           {/* </div> */}
 
           {/* {our projects } */}
 
           <div className='w-full h-full'>
             <div className='h-full bg-black'>
-            <div className=' bg-gradient-to-tr from-pink-400 to-[#4169E1] h-[30vh] flex items-center sm:justify-center sm:p-2'>
-            <h1 className='text-5xl lg:text-6xl  text-white uppercase text-center font-semibold p-4'>Our Previous work & Achievements</h1>
-          </div>
+              <div className=' bg-gradient-to-tr from-pink-400 to-[#4169E1] h-[30vh] flex items-center sm:justify-center sm:p-2'>
+                <h1 className='text-5xl lg:text-6xl  text-white uppercase text-center font-semibold p-4'>Our Previous work & Achievements</h1>
+              </div>
 
               <div className='h-full scale-95'>
                 {/* <div className='flex text-white gap-2'> */}
@@ -194,7 +194,7 @@ const Home = () => {
                     </div>
                   </div>
                 </Carousel>
-                
+
                 <div className='w-full h-full flex justify-between text-white mt-10 gap-2 '>
                   <div className='flex justify-center w-full flex-col items-center p-4 bg-gradient-to-br from-blue-500 to-violet-600 '>
                     <span className='text-md lg:text-4xl font-semibold uppercase'>+12</span>
@@ -210,38 +210,38 @@ const Home = () => {
                   </div>
                 </div>
                 {/* </div> */}
-               
-                {/* <div className='w-full h-screen  rounded-2xl  '> */}
-                  <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full lg:h-screen bg-slate-100 mt-0 lg:mt-5 scale-95 '>
-                    <div className='text-white flex flex-col justify-around'>
-                      <div className='flex w-full flex-col items-center  '>
-                        <h1 className='text-4xl lg:text-7xl  font-bold text-center mt-2 lg:mt-2 text-gray-800 '>Innovate with us</h1>
-                        <p className=' w-full lg:w-[500px] text-justify text-xl mt-2 p-4 lg:p-0 text-gray-600'>Ready to take your business to next level? Contact us today to discuss your project & get a free consultation. We're here to answer any question you may have.</p>
-                      </div>
 
-                      <div className=''>
-                        <h1 className='text-orange-500 text-4xl lg:text-6xl text-center uppercase'>Book Now</h1>
-                        <h2 className='text-orange-500 text-4xl lg:text-5xl text-center uppercase'>Free consultation</h2>
-                      </div>
-                      <div>
-                        <h1 className='text-gray-800 mt-4 lg:mt-0 text-xl lg:text-3xl text-center uppercase'>+91 9890845263</h1>
-                        <p className='text-gray-800 text-xl lg:text-3xl text-center '>businessatmaximice@gmail.com</p>
-                      </div>
+                {/* <div className='w-full h-screen  rounded-2xl  '> */}
+                <div className='grid grid-rows-1  lg:grid-cols-2 w-full h-full lg:h-screen bg-slate-100 mt-0 lg:mt-5 scale-95 '>
+                  <div className='text-white flex flex-col justify-around'>
+                    <div className='flex w-full flex-col items-center  '>
+                      <h1 className='text-4xl lg:text-7xl  font-bold text-center mt-2 lg:mt-2 text-gray-800 '>Innovate with us</h1>
+                      <p className=' w-full lg:w-[500px] text-justify text-xl mt-2 p-4 lg:p-0 text-gray-600'>Ready to take your business to next level? Contact us today to discuss your project & get a free consultation. We're here to answer any question you may have.</p>
                     </div>
-                    <div className='text-white w-full h-full flex flex-col justify-center items-center gap-4'>
-                      <img src={business} className=' mt-10 lg:mt-0 object-cover rounded-xl w-[200px]' alt='' />
-                      <h1 className='text-gray-700 text-3xl'>Shruti Gade</h1>
-                      <p className='text-gray-500 -mt-5 text-xl'>Team leader</p>
-                      <h1 className='text-3xl text-center text-white p-2 cursor-pointer hover:text-gray-800  bg-gradient-to-tr from-pink-400 to-[#4169E1]'>Contact Us</h1>
-                      <span className='text-gray-800 text-xl mb-3 lg:mb-0'>Maximice Associates</span>
+
+                    <div className=''>
+                      <h1 className='text-orange-500 text-4xl lg:text-6xl text-center uppercase'>Book Now</h1>
+                      <h2 className='text-orange-500 text-4xl lg:text-5xl text-center uppercase'>Free consultation</h2>
+                    </div>
+                    <div>
+                      <h1 className='text-gray-800 mt-4 lg:mt-0 text-xl lg:text-3xl text-center uppercase'>+91 9890845263</h1>
+                      <p className='text-gray-800 text-xl lg:text-3xl text-center '>businessatmaximice@gmail.com</p>
                     </div>
                   </div>
+                  <div className='text-white w-full h-full flex flex-col justify-center items-center gap-4'>
+                    <img src={business} className=' mt-10 lg:mt-0 object-cover rounded-xl w-[200px]' alt='' />
+                    <h1 className='text-gray-700 text-3xl'>Shruti Gade</h1>
+                    <p className='text-gray-500 -mt-5 text-xl'>Team leader</p>
+                    <h1 className='text-3xl text-center text-white p-2 cursor-pointer hover:text-gray-800  bg-gradient-to-tr from-pink-400 to-[#4169E1]'>Contact Us</h1>
+                    <span className='text-gray-800 text-xl mb-3 lg:mb-0'>Maximice Associates</span>
+                  </div>
+                </div>
 
                 {/* </div> */}
 
 
                 {/* <h1 className='text-6xl  text-white uppercase text-center font-semibold p-4 mt-10'>Our Achievements</h1> */}
-                
+
               </div>
             </div>
 
